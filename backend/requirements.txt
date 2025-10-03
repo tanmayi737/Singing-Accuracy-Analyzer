@@ -1,0 +1,7 @@
+Flask
+Flask-CORS
+librosa
+pyloudnorm
+numpy
+scipy
+matplotlib

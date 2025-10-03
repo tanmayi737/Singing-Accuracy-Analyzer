@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.analyzer-app {
+  font-family: Arial, sans-serif;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.file-input-group {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.file-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.results-container {
+    margin-top: 20px;
+    text-align: left;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+}
+
+.results-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results-container li {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.feedback-pitch {
+    background-color: #ffe0e0; 
+    border-left: 5px solid red;
+}
+
+.feedback-pronunciation {
+    background-color: #fffbe0;
+    border-left: 5px solid orange;
+}
