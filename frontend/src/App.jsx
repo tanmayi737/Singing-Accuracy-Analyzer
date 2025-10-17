@@ -248,8 +248,8 @@ function App() {
     return (
         <div className="container">
             <div className="header">
-                <h1>🎤 Singing Accuracy Analyzer</h1>
-                <p>Compare your singing with reference audio and get detailed feedback</p>
+                <h1>🎤 AlgoRhythm</h1>
+                <p>   Compare your singing with reference audio and get detailed feedback</p>
             </div>
             <div className="features-grid">
                 <div className="feature-card"><div className="feature-icon">🎧</div><div className="feature-title">Audio Analysis</div><div className="feature-desc">Advanced pitch, timing, and pronunciation analysis</div></div>
